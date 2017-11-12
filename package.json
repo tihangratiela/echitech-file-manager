@@ -1,0 +1,30 @@
+{
+  "name": "echitech-file-manager",
+  "version": "1.0.0",
+  "description": "File manager for the ECHITECH project, hosted on github",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tihangratiela/echitech-file-manager.git"
+  },
+  "keywords": [
+    "echitech"
+  ],
+  "author": "Andrei Pufu (damianfate@gmail.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tihangratiela/echitech-file-manager/issues"
+  },
+  "homepage": "https://github.com/tihangratiela/echitech-file-manager#readme",
+  "devDependencies": {
+    "electron-packager": "^9.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "electron": "^1.7.9",
+    "jquery": "^3.2.1"
+  }
+}
