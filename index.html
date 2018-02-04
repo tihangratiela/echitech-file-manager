@@ -1,1 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>EFM</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="arc-css/fonts/fonts.css">
+	<link rel="stylesheet" href="arc-css/index.css">
+	<script type="text/javascript">window.$ = window.jQuery = require('jquery');</script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="arc-js/mainjs.js"></script>
+
+</head>
+<body class="unselectable">
+
+	<div id="topbar">
+		<h3 id="title" class="pull-left">ECHITECH file manager</h3>
+		<ul style="margin:0px;" class="pull-right">
+			<li><span id="close-btn" class="glyphicon glyphicon-off"></span></li>
+		</ul>
+	</div>
+	<!-- script for program close since frameless window and yeah -->
+	<script type="text/javascript">
+		$("#close").click(function(){
+			window.close();
+		})
+	</script>
+	<div class="arc-wrapper">
+
+
+	</div>
+	<footer></footer>
+</body>
