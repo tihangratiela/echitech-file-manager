@@ -88,3 +88,64 @@ footer {
     -ms-user-select: none;
     user-select: none;
 }
+
+#pdf_list_ul {
+	width : 100%;
+	padding : 20px;
+	margin : 0px;
+}
+
+#pdf_list_ul li {
+
+	display : block;
+	background-color: #7AB354;
+}
+
+#pdf_list_ul  ul {
+
+	display: inline-flex;
+	width: 80%;
+
+}
+
+.letitle {
+
+	width:100%;
+
+}
+
+.lebutton {
+
+	width: 100%;
+	padding: 10px;
+
+}
+
+.lebutton span {
+
+	font-size:32px;
+	margin: 10px;
+}
+
+.bli {
+
+	width : 20%!important ;
+}
+
+.editbutton:hover {
+
+	color: #ffc105;
+
+}
+
+
+.removebutton:hover {
+
+	color: #AC0008;
+
+}
+
+.mlistli {
+
+	margin-bottom: 10px;
+}

@@ -22,11 +22,11 @@
   "devDependencies": {
     "electron-packager": "^9.1.0"
   },
+  "engines": "atom-shell",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "electron": "^1.7.9",
     "jquery": "^3.2.1",
-    "nodegit": "^0.20.3",
     "xmlpoke": "^0.1.13"
   }
 }
